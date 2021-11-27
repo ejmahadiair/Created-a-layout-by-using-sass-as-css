@@ -1,0 +1,13 @@
+header {
+    background-color: $main-color;
+    width: 100%;
+    height: 120px;
+    .input {
+        visibility: hidden;
+    }
+    h1 {
+        color: white;
+        margin: 0;
+        padding: 40px 0 40px 40px;
+    }
+}

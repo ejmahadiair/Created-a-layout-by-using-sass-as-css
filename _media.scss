@@ -1,0 +1,51 @@
+@media screen and (max-width: 550px) {
+    .wrepe {
+        position: relative;
+        width: 98% !important;
+        z-index: 1;
+        header {
+            position: relative;
+            z-index: 2;
+            .input {
+                visibility: visible;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+            }
+        }
+        #input:checked~nav {
+            position: absolute;
+            top: 120px;
+            left: 0;
+            height: fit-content;
+            visibility: visible;
+            transition: all 1s ease;
+        }
+        .content_area,
+        .side_bar {
+            width: 100%;
+            float: none;
+            height: fit-content;
+        }
+        footer {
+            p {
+                margin: 0;
+            }
+        }
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 120px;
+            visibility: hidden;
+            z-index: 1;
+            transition: all 1s ease;
+            ul {
+                display: block;
+                li {
+                    display: block;
+                }
+            }
+        }
+    }
+}

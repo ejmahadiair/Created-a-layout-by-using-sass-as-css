@@ -1,0 +1,21 @@
+// *::selection {
+//     background-color: $main-color;
+//     color: white;
+// }
+@import "variables";
+@import "hader";
+@import "navigation";
+@import "content";
+@import "sidebar";
+@import "footer";
+@import "media";
+.wrepe {
+    width: 78%;
+    height: 1200px;
+    margin: 0 auto;
+    #input {
+        position: absolute;
+        top: -99999%;
+        left: -99999%;
+    }
+}

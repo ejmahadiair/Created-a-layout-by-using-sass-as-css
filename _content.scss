@@ -1,0 +1,13 @@
+.content_area {
+    width: 70%;
+    height: 500px;
+    background-color: whitesmoke;
+    float: left;
+    .first_content {
+        padding: 15px;
+    }
+    &::selection {
+        background: green;
+        color: white;
+    }
+}
